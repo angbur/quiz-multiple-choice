@@ -1,0 +1,2576 @@
+[
+    {
+        "question": "Które z wywołań funkcji jest prawidłowym odzwierciedleniem poniższego JSX? ",
+        "image": "img1.png",
+        "answers": [
+            {
+                "text": "`React.createElement('a', { href: 'site.com' }, { children: 'Link' })`",
+                "correct": false
+            },
+            {
+                "text": "`React.createElement({ tag: 'a', props: { href: 'site.com', children: 'Link' } })`",
+                "correct": false
+            },
+            {
+                "text": "`React.createElement('a', { href: 'site.com' }, 'Link')`",
+                "correct": true
+            },
+            {
+                "text": "`React.createElement(HTMLAnchorElement, { props: { href: 'site.com', children: 'Link' } })`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych właściwości mogą zostać użyte zarówno w zwykłym HTML, jak i JSX?",
+        "image": "",
+        "answers": [
+            {
+                "text": "`for`",
+                "correct": true
+            },
+            {
+                "text": "`onClick`",
+                "correct": true
+            },
+            {
+                "text": "`className`",
+                "correct": false
+            },
+            {
+                "text": "`class`",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych linii kodu są prawidłowe?",
+        "image": "",
+        "answers": [
+            {
+                "text": "const [state, setState] = useState(true)",
+                "correct": true
+            },
+            {
+                "text": "const { state, setState } = useState(true)",
+                "correct": false
+            },
+            {
+                "text": "const stateTuple = useState(true)",
+                "correct": true
+            },
+            {
+                "text": "const { get, set } = useState(true)",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Hooki w React.js mogą zostać użyte: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Wewnątrz instrukcji `if`",
+                "correct": false
+            },
+            {
+                "text": "Wewnątrz funkcji, które też są hookami",
+                "correct": true
+            },
+            {
+                "text": "Wewnątrz pętli `for`",
+                "correct": false
+            },
+            {
+                "text": "Wewnątrz dowolnych funkcji",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakie błędy występują w poniższym kodzie?",
+        "image": "img2.png",
+        "answers": [
+            {
+                "text": "Nie musimy importować Reacta ponieważ korzystamy z JSX zamiast funkcji `createElement`",
+                "correct": true
+            },
+            {
+                "text": "Komponent powinien być eksportowany w ramach `export default`",
+                "correct": false
+            },
+            {
+                "text": "`aria-label` powinno być zapisane jako `ariaLabel`",
+                "correct": false
+            },
+            {
+                "text": "Korzystając z JSX powinniśmy dodać do pliku `import JSX from 'react-jsx'`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakich przypadkach nie musimy dodawać `import React from 'react';` do pliku z komponentem?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Skonfigurowaliśmy Babel.js, aby dodawał import automatycznie do plików zawierających JSX",
+                "correct": true
+            },
+            {
+                "text": "Tworzymy komponent klasowy",
+                "correct": false
+            },
+            {
+                "text": "Korzystamy z najnowszej wersji Reacta",
+                "correct": false
+            },
+            {
+                "text": "Zawsze musimy dodać ten import, ponieważ JSX transpiluje się do `React.createElement`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Co się stanie jeśli komponent przerenderuje się z inną liczbą hook'ów niż poprzednio?",
+        "image": "",
+        "answers": [
+            {
+                "text": "W konsoli pojawi się błąd",
+                "correct": true
+            },
+            {
+                "text": "W konsoli nie pojawi się nic",
+                "correct": false
+            },
+            {
+                "text": "Aplikacja będzie dalej działać, ale możliwe, że nieprawidłowo",
+                "correct": false
+            },
+            {
+                "text": "Aplikacja całkowicie przestanie działać",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Kiedy wykona się funkcja `makeApiCall`?",
+        "image": "img3.png",
+        "answers": [
+            {
+                "text": "Zawsze po wyrenderowaniu komponentu `MyComponent`",
+                "correct": false
+            },
+            {
+                "text": "Zawsze przed wyrenderowaniem komponentu `MyComponent`",
+                "correct": false
+            },
+            {
+                "text": "Tylko po pierwszym wyrenderowaniu komponentu `MyComponent`",
+                "correct": false
+            },
+            {
+                "text": "Tylko przed pierwszym wyrenderowaniem komponentu `MyComponent`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Kiedy wykona się funkcja `makeApiCall`?",
+        "image": "img4.png",
+        "answers": [
+            {
+                "text": "Zawsze po wyrenderowaniu komponentu `MyComponent`",
+                "correct": false
+            },
+            {
+                "text": "Przy każdej zmianie wartości `name`",
+                "correct": false
+            },
+            {
+                "text": "Tylko po pierwszym wyrenderowaniu komponentu `MyComponent`",
+                "correct": true
+            },
+            {
+                "text": "Nigdy",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Kiedy wykonuje się funkcja zwrócona z callback'a przekazywanego do `useEffect`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Kiedy komponent się przerenderuje a tablica zależności nie zawiera żadnych argumentów",
+                "correct": true
+            },
+            {
+                "text": "Zawsze po wykonaniu zawartości `useEffect`",
+                "correct": false
+            },
+            {
+                "text": "Zawsze przed wykonaniem zawartości `useEffect`",
+                "correct": false
+            },
+            {
+                "text": "Przed odmontowaniem (usunięciem) komponentu",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które twierdzenia na temat własnych hooków (custom hooks) są prawdziwe?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Ich nazwa powinna zaczynać się od `use`",
+                "correct": true
+            },
+            {
+                "text": "Powinny korzystać z innych hooków",
+                "correct": true
+            },
+            {
+                "text": "Powinny zwracać jakąś wartość",
+                "correct": false
+            },
+            {
+                "text": "Nie powinny zawierać side effectów",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Czym jest `param` w poniższym przykładzie?",
+        "image": "img5.png",
+        "answers": [
+            {
+                "text": "Natywnym (przeglądarkowym) obiektem event",
+                "correct": false
+            },
+            {
+                "text": "Specjalną wersją obiektu event zapewnianą przez Reacta",
+                "correct": true
+            },
+            {
+                "text": "Nową wartością wpisaną inputa",
+                "correct": false
+            },
+            {
+                "text": "Kolejną literą wpisaną do inputa",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jaki sposób dodać do aplikacji strict mode zapewniany przez React.js?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Dodać `'use strict'` na początku każdego pliku, w którym chcemy skorzystać ze strict mode",
+                "correct": false
+            },
+            {
+                "text": "Dodać `'use strict'` na początku pliku zawierającego `ReactDOM.render`",
+                "correct": false
+            },
+            {
+                "text": "Zaimportować komponent `StrictMode` i owrapować nim główny komponent aplikacji",
+                "correct": true
+            },
+            {
+                "text": "Ustawić w Babelu flagę `strict: true`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Korzystając z react-router-dom chcemy, aby zawsze renderowała się zawartość tylko jednego dopasowanego `Route`. Aby to osiągnąć możemy: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Owrapować wszystkie `<Route />` korzystając z komponentu `Switch`",
+                "correct": true
+            },
+            {
+                "text": "Skorzystać z komponentu `SingleRouter`",
+                "correct": false
+            },
+            {
+                "text": "Dodać do każdego `Route` property o nazwie `once`",
+                "correct": false
+            },
+            {
+                "text": "Nie możemy tego osiągnąć korzystając wyłącznie z biblioteki React Route",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych wymagań musimy spełnić tworząc komponent klasowy?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawiera konstruktor, który wywołuje `super()`",
+                "correct": false
+            },
+            {
+                "text": "Dziedziczy po klasie `Component`",
+                "correct": true
+            },
+            {
+                "text": "Posiada metodę `render()`",
+                "correct": true
+            },
+            {
+                "text": "Posiada metodę `componentDidMount()`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Których spośród poniższych hooków możemy używać w komponentach klasowych?",
+        "image": "",
+        "answers": [
+            {
+                "text": "useState",
+                "correct": false
+            },
+            {
+                "text": "useEffect",
+                "correct": false
+            },
+            {
+                "text": "useRef",
+                "correct": false
+            },
+            {
+                "text": "useContext",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych modyfikacji zmiennej są dozwolone w komponentach klasowych?",
+        "image": "",
+        "answers": [
+            {
+                "text": "this.state.active = true",
+                "correct": false
+            },
+            {
+                "text": "this.props.active = true",
+                "correct": false
+            },
+            {
+                "text": "this.setState({ active: true })",
+                "correct": true
+            },
+            {
+                "text": "this.state.active.set(true)",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaka będzie wartość `this.state` po wykonaniu metody `this.setState({ x: 1 })`?",
+        "image": "img6.png",
+        "answers": [
+            {
+                "text": "a. `{ x: 0, y: 0 }`",
+                "correct": false
+            },
+            {
+                "text": "b. `{ x: 1, y: 0 }`",
+                "correct": true
+            },
+            {
+                "text": "c. `{ x: 1 }`",
+                "correct": false
+            },
+            {
+                "text": "d. `{ x: '01', y: 0 }`",
+                "correct": false
+            },
+            {
+                "text": "e. Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które zdania na temat Error Boundaries są prawdziwe?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Muszą zostać zaimplementowane jako komponent klasowy",
+                "correct": true
+            },
+            {
+                "text": "Zawsze wykorzystują metodę `componentDidCatch`",
+                "correct": false
+            },
+            {
+                "text": "Muszą zawierać właściwość `hasError`",
+                "correct": false
+            },
+            {
+                "text": "Żeby spełniać swoją funkcję muszą przyjmować `children`",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wartości przekazywane poprzez Context API są dostępne:",
+        "image": "",
+        "answers": [
+            {
+                "text": "W każdym komponencie znajdującym się niżej w Virtual DOM, niż Provider",
+                "correct": true
+            },
+            {
+                "text": "Tylko w komponentach przekazanych bezpośrednio jako `children` do Providera",
+                "correct": false
+            },
+            {
+                "text": "W komponentach zdefiniowanych w ramach funkcji `createContext`",
+                "correct": false
+            },
+            {
+                "text": "W każdym komponencie, niezależnie od jego położenia względem Providera",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jaki sposób skorzystasz z kontekstu zdefiniowanego poniżej?",
+        "image": "img7.png",
+        "answers": [
+            {
+                "text": "const { count } = useContext(CounterContext.Consumer)",
+                "correct": false
+            },
+            {
+                "text": "const count = useContext(CounterContext.count)",
+                "correct": false
+            },
+            {
+                "text": "const { count } = useContext(CounterContext.Provider)",
+                "correct": false
+            },
+            {
+                "text": "const { count } = useContext(CounterContext)",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Kiedy warto skorzystać z funkcji `createPortal`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Kiedy chcemy wyrenderować komponent poza elementem przekazanym jako drugi argument do `ReactDOM.render`",
+                "correct": true
+            },
+            {
+                "text": "Kiedy chcemy stworzyć kilka niezależnie funkcjonujących aplikacji w ramach tego samego projektu",
+                "correct": false
+            },
+            {
+                "text": "Kiedy chcemy wyrenderować komponent w wybranym przez nas miejscu drzewa DOM",
+                "correct": true
+            },
+            {
+                "text": "Kiedy chcemy wyrenderować komponent poza obecnym kontekstem (poza Providerami)",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jaki sposób możemy zdefiniować reguły walidacji props'ów dla komponentu?",
+        "image": "",
+        "answers": [
+            {
+                "text": "MyComponent.props = { ... }",
+                "correct": false
+            },
+            {
+                "text": "MyComponent.propTypes = { ... }",
+                "correct": true
+            },
+            {
+                "text": "MyComponent.validateProps = (props) => ({ ... })",
+                "correct": false
+            },
+            {
+                "text": "MyComponent.validator = { ... }",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Aby określić reguły walidacji props'ów powinniśmy zaimportować je jako:",
+        "image": "",
+        "answers": [
+            {
+                "text": "import PropTypes from 'react/prop-types'",
+                "correct": false
+            },
+            {
+                "text": "import PropTypes from 'react/validation'",
+                "correct": false
+            },
+            {
+                "text": "import PropTypes from 'prop-types'",
+                "correct": true
+            },
+            {
+                "text": "import { PropTypes } from 'react'",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Co możemy wstawić po słowie `return`, aby komponent zwrócił 2 elementy na raz bez powodowania błędów?",
+        "image": "img8.png",
+        "answers": [
+            {
+                "text": "[<td>Col 1</td>, <td>Col 2</td>]",
+                "correct": false
+            },
+            {
+                "text": "<Fragment><td>Col 1</td><td>Col 2</td></Fragment>",
+                "correct": true
+            },
+            {
+                "text": "<><td>Col 1</td><td>Col 2</td></>",
+                "correct": true
+            },
+            {
+                "text": "<td>Col 1</td><td>Col 2</td>",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z wymienionych zalet posiada forma stylowania przedstawiona poniżej? ",
+        "image": "img9.png",
+        "answers": [
+            {
+                "text": "Unikamy ryzyka nadpisywania się klas z różnych miejsc aplikacji",
+                "correct": false
+            },
+            {
+                "text": "Każda para właściwość-wartość pojawia się w stylach tylko raz",
+                "correct": false
+            },
+            {
+                "text": "Style tworzą się podczas kompilacji - nie trzeba generować ich w runtime",
+                "correct": true
+            },
+            {
+                "text": "Możemy łatwo uzależnić style od props'ów otrzymywanych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Rozwiązanie działa out of the box - nie trzeba konfigurować bundler'a",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z wymienionych zalet posiada forma stylowania przedstawiona poniżej?",
+        "image": "img10.png",
+        "answers": [
+            {
+                "text": "Unikamy ryzyka nadpisywania się klas z różnych miejsc aplikacji",
+                "correct": true
+            },
+            {
+                "text": "Każda para właściwość-wartość pojawia się w stylach tylko raz",
+                "correct": false
+            },
+            {
+                "text": "Style tworzą się podczas kompilacji - nie trzeba generować ich w runtime",
+                "correct": true
+            },
+            {
+                "text": "Możemy łatwo uzależnić style od props'ów otrzymywanych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Rozwiązanie działa out of the box - nie trzeba konfigurować bundler'a",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z wymienionych zalet posiada forma stylowania przedstawiona poniżej?",
+        "image": "img11.png",
+        "answers": [
+            {
+                "text": "Unikamy ryzyka nadpisywania się klas z różnych miejsc aplikacji",
+                "correct": true
+            },
+            {
+                "text": "Każda para właściwość-wartość pojawia się w stylach tylko raz",
+                "correct": false
+            },
+            {
+                "text": "Style tworzą się podczas kompilacji - nie trzeba generować ich w runtime",
+                "correct": false
+            },
+            {
+                "text": "Możemy łatwo uzależnić style od props'ów otrzymywanych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Rozwiązanie działa out of the box - nie trzeba konfigurować bundler'a",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Które z wymienionych zalet posiada forma stylowania przedstawiona poniżej?",
+        "image": "img12.png",
+        "answers": [
+            {
+                "text": "Unikamy ryzyka nadpisywania się klas z różnych miejsc aplikacji",
+                "correct": true
+            },
+            {
+                "text": "Każda para właściwość-wartość pojawia się w stylach tylko raz",
+                "correct": true
+            },
+            {
+                "text": "Style tworzą się podczas kompilacji - nie trzeba generować ich w runtime",
+                "correct": false
+            },
+            {
+                "text": "Możemy łatwo uzależnić style od props'ów otrzymywanych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Rozwiązanie działa out of the box - nie trzeba konfigurować bundler'a",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z wymienionych zalet posiada forma stylowania przedstawiona poniżej?",
+        "image": "img13.png",
+        "answers": [
+            {
+                "text": "Unikamy ryzyka nadpisywania się klas z różnych miejsc aplikacji",
+                "correct": true
+            },
+            {
+                "text": "Każda para właściwość-wartość pojawia się w stylach tylko raz",
+                "correct": false
+            },
+            {
+                "text": "Style tworzą się podczas kompilacji - nie trzeba generować ich w runtime",
+                "correct": true
+            },
+            {
+                "text": "Możemy łatwo uzależnić style od props'ów otrzymywanych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Rozwiązanie działa out of the box - nie trzeba konfigurować bundler'a",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakie są zalety wykorzystania bibliotek komponentów pokroju Material UI?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Oszczędzamy czas nie musząc kodować komponentów od zera",
+                "correct": true
+            },
+            {
+                "text": "Nasz bundle ma mniejszy rozmiar, jako że piszemy mniej kodu",
+                "correct": false
+            },
+            {
+                "text": "Otrzymujemy bazowy design system, na którym możemy budować własny",
+                "correct": true
+            },
+            {
+                "text": "Mamy pełną kontrolę nad kierunkiem rozwoju naszych komponentów",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jaki sposób możemy modyfikować style komponentów z Material UI?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Poprzez plik CSS z nadpisanymi klasami używanymi przez Material UI",
+                "correct": true
+            },
+            {
+                "text": "Korzystając z biblioteki do stylowania oferowanej przez Material UI",
+                "correct": true
+            },
+            {
+                "text": "Korzystając z dowolnej biblioteki do stylowania komponentów",
+                "correct": true
+            },
+            {
+                "text": "Tworząc własny motyw i przekazując go do ThemeProvider",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakie pole możemy dodać do `package.json`, aby określić, jakie wersje przeglądarek chcemy wspierać?",
+        "image": "",
+        "answers": [
+            {
+                "text": "supportedBrowsers",
+                "correct": false
+            },
+            {
+                "text": "supports",
+                "correct": false
+            },
+            {
+                "text": "browsers",
+                "correct": false
+            },
+            {
+                "text": "browserslist",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Z jakiej komendy skorzystasz, aby zainstalować paczkę z npm w ramach `dependencies` konkretnego projektu? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "npm install --save-prod",
+                "correct": true
+            },
+            {
+                "text": "npm install -l",
+                "correct": false
+            },
+            {
+                "text": "npm install --local",
+                "correct": false
+            },
+            {
+                "text": "npm install --save-dev",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Z jakiej komendy skorzystasz, aby zainstalować paczkę z npm w ramach `devDependencies` konkretnego projektu? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "`npm install`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --dependency`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --dev-dependency`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --save-dev`",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakie jest główne przeznaczenie React.js?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Budowanie UI",
+                "correct": true
+            },
+            {
+                "text": "Zarządzanie stanem aplikacji",
+                "correct": false
+            },
+            {
+                "text": "Tworzenie aplikacji wspierających wiele przeglądarek",
+                "correct": false
+            },
+            {
+                "text": "Zapewnienie wszystkich narzędzi do budowy aplikacji front-end'owych",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W React.js tworzone przez nas reużywalne części UI, z których budujemy aplikację to: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Serwisy",
+                "correct": false
+            },
+            {
+                "text": "Komponenty",
+                "correct": true
+            },
+            {
+                "text": "Moduły",
+                "correct": false
+            },
+            {
+                "text": "Elementy",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Czym jest Virtual DOM?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Najnowszą wersją zwykłego DOM",
+                "correct": false
+            },
+            {
+                "text": "Kopią DOM zapisaną w formie obiektu",
+                "correct": true
+            },
+            {
+                "text": "Systemem wykrywania zmian w strukturze elementów HTML zaimplementowanym po stronie przeglądarki",
+                "correct": false
+            },
+            {
+                "text": "Inną nazwą na DOM, spopularyzowaną przez React.js",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Kiedy React.js aktualizuje DOM?",
+        "image": "",
+        "answers": [
+            {
+                "text": "W określonym interwale czasowym",
+                "correct": false
+            },
+            {
+                "text": "Kiedy wywołamy metodę `rerender()`",
+                "correct": false
+            },
+            {
+                "text": "Kiedy zmieni się stan aplikacji (komponentów)",
+                "correct": true
+            },
+            {
+                "text": "Nigdy - React aktualizuje wyłącznie VirtualDOM",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Virtual DOM aktualizuje się: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Tak samo często jak zwykły DOM",
+                "correct": false
+            },
+            {
+                "text": "Częściej niż zwykły DOM",
+                "correct": true
+            },
+            {
+                "text": "Rzadziej niż zwykły DOM",
+                "correct": false
+            },
+            {
+                "text": "Czasami częściej a czasami rzadziej niż zwykły DOM - zależy od aplikacji",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Komponent w React.js może być zapisany jako: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Funkcja",
+                "correct": true
+            },
+            {
+                "text": "Prototyp",
+                "correct": false
+            },
+            {
+                "text": "Klasa",
+                "correct": true
+            },
+            {
+                "text": "Obiekt",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaką wartość możemy przekazać w miejscu oznaczonym `X`?",
+        "image": "img14.png",
+        "answers": [
+            {
+                "text": "Komponent",
+                "correct": true
+            },
+            {
+                "text": "String z nazwą elementu HTML",
+                "correct": true
+            },
+            {
+                "text": "String z elementem HTML",
+                "correct": false
+            },
+            {
+                "text": "Kolejne wywołanie `React.createElement`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaką wartość możemy przekazać w miejscu oznaczonym `X`?",
+        "image": "img15.png",
+        "answers": [
+            {
+                "text": "Wyłącznie obiekt zawierający właściwe atrybuty dla elementu `span`",
+                "correct": false
+            },
+            {
+                "text": "Dowolny obiekt",
+                "correct": true
+            },
+            {
+                "text": "Dowolny string",
+                "correct": false
+            },
+            {
+                "text": "Dowolny komponent",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaką wartość możemy przekazać w miejscu oznaczonym `X`?",
+        "image": "img17.png",
+        "answers": [
+            {
+                "text": "Komponent",
+                "correct": false
+            },
+            {
+                "text": "Dowolny obiekt",
+                "correct": false
+            },
+            {
+                "text": "Dowolny string",
+                "correct": true
+            },
+            {
+                "text": "Kolejne wywołanie `React.createElement`",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Czym jest element zwracany przez funkcję `React.createElement`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Obiektem opisującym konkretny element HTML",
+                "correct": false
+            },
+            {
+                "text": "String'iem zawierającym konkretny element HTML",
+                "correct": false
+            },
+            {
+                "text": "Funkcją tworzącą konkretny element w DOM",
+                "correct": false
+            },
+            {
+                "text": "Komponentem",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych nazw komponentu zostały zapisane poprawnie? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "`myComponent`",
+                "correct": false
+            },
+            {
+                "text": "`MyComponent`",
+                "correct": true
+            },
+            {
+                "text": "`my-component`",
+                "correct": false
+            },
+            {
+                "text": "`my_component`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jak z komponentu funkcyjnego `Person` możemy odczytać wartość obiektu przekazanego do `createElement`? ",
+        "image": "img16.png",
+        "answers": [
+            {
+                "text": "Korzystając z `useProps` w ramach funkcji `Person`",
+                "correct": false
+            },
+            {
+                "text": "Korzystając z `this.props` w ramach funkcji `Person`",
+                "correct": false
+            },
+            {
+                "text": "Otrzymamy cały obiekt jako pierwszy parametr funkcji `Person`",
+                "correct": true
+            },
+            {
+                "text": "Pierwszy parametr funkcji `Person` to obiekt, z którego musimy odczytać właściwość o nazwie `props`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłow",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakiej komendy użyjesz, aby zainicjalizować nowy projekt korzystający z npm?",
+        "image": "",
+        "answers": [
+            {
+                "text": "`npm install`",
+                "correct": false
+            },
+            {
+                "text": "`npm start`",
+                "correct": false
+            },
+            {
+                "text": "`npm init`",
+                "correct": true
+            },
+            {
+                "text": "`npm run`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych paczek powinniśmy instalować jako devDependencies (z flagą `-D`)?",
+        "image": "",
+        "answers": [
+            {
+                "text": "prettier",
+                "correct": true
+            },
+            {
+                "text": "eslint",
+                "correct": true
+            },
+            {
+                "text": "git",
+                "correct": false
+            },
+            {
+                "text": "@babel/core",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Z jakiej komendy skorzystasz, aby zainstalować paczkę z npm globalnie?",
+        "image": "",
+        "answers": [
+            {
+                "text": "`npm install`",
+                "correct": false
+            },
+            {
+                "text": "`npm install -g`",
+                "correct": true
+            },
+            {
+                "text": "`npm install -c`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --root`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Z jakiej komendy skorzystasz, aby zainstalować wszystkie paczki z `package.json` danego projektu?",
+        "image": "",
+        "answers": [
+            {
+                "text": "`npm install`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --all`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --from-package`",
+                "correct": false
+            },
+            {
+                "text": "`npm install --package-json`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "W większości przypadków warto instalować paczki z npm:",
+        "image": "",
+        "answers": [
+            {
+                "text": "lokalnie",
+                "correct": true
+            },
+            {
+                "text": "globalnie",
+                "correct": false
+            },
+            {
+                "text": "jako opcjonalne",
+                "correct": false
+            },
+            {
+                "text": "jako peerDependencies",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych zdań na temat folderu `node_modules` są prawdziwe?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawiera wyłącznie paczki wymienione w `package.json` projektu",
+                "correct": false
+            },
+            {
+                "text": "Zawiera paczki wymienione w `package.json` projektu oraz wszystkie związane z nimi zależności",
+                "correct": true
+            },
+            {
+                "text": "Powinien być dodany do `.gitignore`",
+                "correct": true
+            },
+            {
+                "text": "Jest generowany automatycznie, kiedy użyjemy komendy `npm install`",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wersja paczki zmieniła się z `11.3.1` na `12.0.0`. Może to oznaczać, że nowa wersja: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawiera zmiany, które nie są wstecznie kompatybilne",
+                "correct": true
+            },
+            {
+                "text": "Zawiera jedynie rozwiązania pomniejszych bug'ów",
+                "correct": false
+            },
+            {
+                "text": "Wprowadza nowe funkcjonalności, które są wstecznie kompatybilne",
+                "correct": true
+            },
+            {
+                "text": "Nie zawiera już czegoś, co było dostępne w poprzedniej wersji paczki",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wersja paczki zmieniła się z `11.3.1` na `11.4.0`. Może to oznaczać, że nowa wersja: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawiera zmiany, które nie są wstecznie kompatybilne",
+                "correct": false
+            },
+            {
+                "text": "Zawiera jedynie rozwiązania pomniejszych bug'ów",
+                "correct": false
+            },
+            {
+                "text": "Wprowadza nowe funkcjonalności, które są wstecznie kompatybilne",
+                "correct": true
+            },
+            {
+                "text": "Nie zawiera już czegoś, co było dostępne w poprzedniej wersji paczki",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Wersja paczki zmieniła się z `11.3.1` na `11.3.2`. Może to oznaczać, że nowa wersja: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawiera zmiany, które nie są wstecznie kompatybilne",
+                "correct": false
+            },
+            {
+                "text": "Zawiera jedynie rozwiązania pomniejszych bug'ów",
+                "correct": true
+            },
+            {
+                "text": "Wprowadza nowe funkcjonalności, które są wstecznie kompatybilne",
+                "correct": false
+            },
+            {
+                "text": "Nie zawiera już czegoś, co było dostępne w poprzedniej wersji paczki",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które ze zdań na temat bundlerów JavaScript są prawdziwe? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Łączą wiele plików z kodem ze sobą",
+                "correct": true
+            },
+            {
+                "text": "Korzystają ze ścieżek importów/eksportów, aby określić, w jaki sposób połączyć pliki ze sobą",
+                "correct": true
+            },
+            {
+                "text": "Działają wyłącznie z plikami, które można przetłumaczyć na czysty JavaScript",
+                "correct": false
+            },
+            {
+                "text": "Pozwalają dopasować wykonywane transformacje zależnie od typów plików",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Testy, podczas których użytkownik wchodzi w bezpośrednią interakcję z aplikacją, aby sprawdzić jej działanie to:",
+        "image": "",
+        "answers": [
+            {
+                "text": "Testy manualne",
+                "correct": true
+            },
+            {
+                "text": "Testy jednostkowe",
+                "correct": false
+            },
+            {
+                "text": "Testy integracyjne",
+                "correct": false
+            },
+            {
+                "text": "Testy end-to-end",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Testy, podczas których bot testuje całą aplikację odzwierciedlając działania docelowego użytkownika to:",
+        "image": "",
+        "answers": [
+            {
+                "text": "Testy manualne",
+                "correct": false
+            },
+            {
+                "text": "Testy jednostkowe",
+                "correct": false
+            },
+            {
+                "text": "Testy integracyjne",
+                "correct": false
+            },
+            {
+                "text": "Testy end-to-end",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Testy, podczas których sprawdzamy jak kilka powiązanych funkcjonalności współgra ze sobą to:",
+        "image": "",
+        "answers": [
+            {
+                "text": "Testy manualne",
+                "correct": false
+            },
+            {
+                "text": "Testy jednostkowe",
+                "correct": false
+            },
+            {
+                "text": "Testy integracyjne",
+                "correct": true
+            },
+            {
+                "text": "Testy end-to-end",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Testy, podczas których sprawdzamy w izolacji konkretną funkcjonalność (np. funkcję) to: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Testy manualne",
+                "correct": false
+            },
+            {
+                "text": "Testy jednostkowe",
+                "correct": true
+            },
+            {
+                "text": "Testy integracyjne",
+                "correct": false
+            },
+            {
+                "text": "Testy end-to-end",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Załóżmy, że w teście jesteś w stanie odwołać się do elementu HTML na każdy z poniższych sposobów. Który z nich wybierzesz? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "container.querySelector('button.loading')",
+                "correct": false
+            },
+            {
+                "text": "screen.getByRole('button', { name: /increment/i })",
+                "correct": true
+            },
+            {
+                "text": "screen.getAllByRole('button')[0]",
+                "correct": false
+            },
+            {
+                "text": "container.getElementById('increment')",
+                "correct": false
+            },
+            {
+                "text": "container.querySelector('button')[1]",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Załóżmy, że w teście jesteś w stanie odwołać się do elementu HTML korzystając z każdej z poniższych metod. Którą z nich wybierzesz?",
+        "image": "",
+        "answers": [
+            {
+                "text": "document.querySelector",
+                "correct": false
+            },
+            {
+                "text": "screen.getByText",
+                "correct": false
+            },
+            {
+                "text": "screen.getByRole",
+                "correct": true
+            },
+            {
+                "text": "screen.getByTitle",
+                "correct": false
+            },
+            {
+                "text": "screen.getByTestId",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Załóżmy, że w teście jesteś w stanie wykonać każdą z poniższych asercji. Którą z nich wybierzesz? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "expect(button.disabled).toBe(true)",
+                "correct": false
+            },
+            {
+                "text": "expect(button.getAttribute('disabled')).toBe(true)",
+                "correct": false
+            },
+            {
+                "text": "expect(button.hasAttribute('disabled'))",
+                "correct": false
+            },
+            {
+                "text": "expect(button).toBeDisabled()",
+                "correct": true
+            },
+            {
+                "text": "expect(button.disabled).toBeTruthy()",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakiej metody powinniśmy użyć w miejscu X, jeżeli zakładamy, że element button dopiero zostanie wyrenderowany w ramach testowanego komponentu?",
+        "image": "img18.png",
+        "answers": [
+            {
+                "text": "getByRole",
+                "correct": false
+            },
+            {
+                "text": "queryByRole",
+                "correct": false
+            },
+            {
+                "text": "findByRole",
+                "correct": true
+            },
+            {
+                "text": "container.querySelector",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakiej metody powinniśmy użyć w miejscu X?",
+        "image": "img19.png",
+        "answers": [
+            {
+                "text": "getByRole",
+                "correct": false
+            },
+            {
+                "text": "queryByRole",
+                "correct": true
+            },
+            {
+                "text": "findByRole",
+                "correct": false
+            },
+            {
+                "text": "container.querySelector",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jakie błędy dostrzegasz w poniższym teście?",
+        "image": "img20.png",
+        "answers": [
+            {
+                "text": "Props'y `name` i `label` posiadają tę samą wartość, więc powinniśmy wynieść ją do zmiennej",
+                "correct": false
+            },
+            {
+                "text": "Korzystając ze snapshot'a test staje się wrażliwy na dowolną zmianę w zwracanym elemencie",
+                "correct": true
+            },
+            {
+                "text": "Input jest znajdowany na bazie powiązanego elementu `label` zamiast na podstawie jego atrybutu `name`",
+                "correct": false
+            },
+            {
+                "text": "W tym teście nie ma błędów",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych informacji powinny być zawarte w nazwie testu? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Część aplikacji podlegająca testowi",
+                "correct": true
+            },
+            {
+                "text": "Spodziewany rezultat testu",
+                "correct": true
+            },
+            {
+                "text": "Kontekst w jakim odbywa się test",
+                "correct": true
+            },
+            {
+                "text": "Nazwa typu testu",
+                "correct": false
+            },
+            {
+                "text": "Środowisko, w którym powinien być wykonywany test",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Które z poniższych sekcji powinny pojawić się w ramach pojedynczego testu? (Podpowiedź: AAA)",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zdefiniowanie mock'ów dla wszystkich zależności testowanej funkcjonalności",
+                "correct": false
+            },
+            {
+                "text": "Wykonanie operacji składających się na test",
+                "correct": true
+            },
+            {
+                "text": "Zaimportowanie wszystkich niezbędnych zależności",
+                "correct": false
+            },
+            {
+                "text": "Przygotowanie kontekstu pod rozpoczęcie testu",
+                "correct": true
+            },
+            {
+                "text": "Porównanie stanu systemu z oczekiwanym rezultatem",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Jakie błędy dostrzegasz w poniższym teście?",
+        "image": "img21.png",
+        "answers": [
+            {
+                "text": "Korzysta z `toBe(true)` zamiast bardziej deklaratywnego `toBeTruthy()`",
+                "correct": false
+            },
+            {
+                "text": "Nie posiada sekcji odpowiadającej 'Arrange' z konwencji AAA",
+                "correct": false
+            },
+            {
+                "text": "Dane przekazane do `addProduct` są statyczne. Powinny być generowane losowo przy każdym teście",
+                "correct": true
+            },
+            {
+                "text": "W tym teście nie ma błędów",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Stworzyłeś komponent `<Button>` renderujący przycisk. Których z poniższych rzeczy NIE powinieneś testować?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Po przekazaniu props'a `isLoading` przycisk otrzymał klasę 'loading' (`toHaveClass`)",
+                "correct": false
+            },
+            {
+                "text": "Po kliknięciu została wywołana funkcja `onClick` przekazana mu poprzez prop's",
+                "correct": false
+            },
+            {
+                "text": "Po przekazaniu props'a `isDisabled` przycisk jest wyszarzony (`toBeDisabled`)",
+                "correct": false
+            },
+            {
+                "text": "Po wyrenderowaniu z konkretnymi props, zwrócony element wygląda tak samo (`toMatchInlineSnapshot`)",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Jaka będzie wartość `count` po kliknięciu przycisku 'increment'?",
+        "image": "img22.png",
+        "answers": [
+            {
+                "text": "0",
+                "correct": false
+            },
+            {
+                "text": "1",
+                "correct": true
+            },
+            {
+                "text": "2",
+                "correct": false
+            },
+            {
+                "text": "4",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaka będzie wartość `count` po kliknięciu przycisku 'increment'?",
+        "image": "img23.png",
+        "answers": [
+            {
+                "text": "0",
+                "correct": false
+            },
+            {
+                "text": "1",
+                "correct": false
+            },
+            {
+                "text": "2",
+                "correct": true
+            },
+            {
+                "text": "4",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakiej sytuacji powinniśmy przekazać funkcję do hook'a `useState`? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Chcemy uzyskać podobny sposób zmiany stanu jak w komponentach klasowych",
+                "correct": false
+            },
+            {
+                "text": "Do obliczenia wartości musimy wykorzystać inny hook",
+                "correct": false
+            },
+            {
+                "text": "Wartość stanu powinna zmienić się, kiedy zmienią się props",
+                "correct": false
+            },
+            {
+                "text": "Ustalenie wartości wymaga złożonych obliczeń",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Jaka będzie wartość `state` po wykonaniu funkcji `setState({ x: 1 })`?",
+        "image": "img24.png",
+        "answers": [
+            {
+                "text": "{ x: 0, y: 0 }",
+                "correct": false
+            },
+            {
+                "text": "{ x: 1, y: 0 }",
+                "correct": false
+            },
+            {
+                "text": "{ x: 1 }",
+                "correct": true
+            },
+            {
+                "text": "{ x: '01', y: 0 }",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Użytkownik kliknął przycisk 'increment'? Ile razy w jego konsoli pojawił się napis 'rerender'? Uwzględnij pierwsze wyrenderowanie komponentu. ",
+        "image": "img25.png",
+        "answers": [
+            {
+                "text": "1",
+                "correct": false
+            },
+            {
+                "text": "2",
+                "correct": false
+            },
+            {
+                "text": "3",
+                "correct": false
+            },
+            {
+                "text": "5",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "W jakiej kolejności wykonają się `console.log` zawarte w poniższym kodzie?",
+        "image": "img26.png",
+        "answers": [
+            {
+                "text": "1, 2, 3, 4, 5, 6",
+                "correct": false
+            },
+            {
+                "text": "1, 2, 3, 5, 6, 4",
+                "correct": false
+            },
+            {
+                "text": "1, 5, 4, 2, 3, 6",
+                "correct": false
+            },
+            {
+                "text": "1, 2, 4, 5, 6, 3",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Poniższy `useEffect` jest odpowiednikiem metody ... w komponentach klasowych. ",
+        "image": "img27.png",
+        "answers": [
+            {
+                "text": "componentWillMount",
+                "correct": false
+            },
+            {
+                "text": "componentDidMount",
+                "correct": false
+            },
+            {
+                "text": "componentDidUpdate",
+                "correct": false
+            },
+            {
+                "text": "componentWillUnmount",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Poniższy `useEffect` jest odpowiednikiem metody ... w komponentach klasowych.",
+        "image": "img28.png",
+        "answers": [
+            {
+                "text": "componentWillMount",
+                "correct": false
+            },
+            {
+                "text": "componentDidMount",
+                "correct": true
+            },
+            {
+                "text": "componentDidUpdate",
+                "correct": false
+            },
+            {
+                "text": "componentWillUnmount",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Poniższy `useEffect` jest odpowiednikiem metody ... w komponentach klasowych.",
+        "image": "img29.png",
+        "answers": [
+            {
+                "text": "componentWillMount",
+                "correct": false
+            },
+            {
+                "text": "componentDidMount",
+                "correct": true
+            },
+            {
+                "text": "componentDidUpdate",
+                "correct": true
+            },
+            {
+                "text": "componentWillUnmount",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Kiedy wykonuje się funkcja zwrócona z callback'a przekazywanego do `useEffect`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Po ponownym wyrenderowaniu komponentu",
+                "correct": false
+            },
+            {
+                "text": "Przed ponownym wykonaniem zawartości `useEffect`",
+                "correct": true
+            },
+            {
+                "text": "Kiedy zmieni się wartość tablicy zależności (drugiego argumentu)",
+                "correct": true
+            },
+            {
+                "text": "Przed odmontowaniem (usunięciem) komponentu",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Do czego powinniśmy wykorzystać hook'a `useRef`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Przechowywania wartości obliczanych na bazie kilku innych wartości",
+                "correct": false
+            },
+            {
+                "text": "Uzyskania dostępu do elementów HTML zwróconych przez komponent",
+                "correct": true
+            },
+            {
+                "text": "Przechowywania stałych dostępnych wyłącznie w danym komponencie",
+                "correct": false
+            },
+            {
+                "text": "Przechowywania wartości, których zmiana nie powinna re-renderować komponentu",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Chcesz zaimplementować hook `usePrev`, który będzie zwracał poprzednią wartość przekazanej do niego zmiennej (przykład użycia poniżej). Które z wbudowanych w React.js hook'ów będą niezbędne do stworzenia takiej funkcjonalności?",
+        "image": "img30.png",
+        "answers": [
+            {
+                "text": "useEffect i useCallback",
+                "correct": false
+            },
+            {
+                "text": "useMemo i useCallback",
+                "correct": false
+            },
+            {
+                "text": "useEffect i useRef",
+                "correct": true
+            },
+            {
+                "text": "useEffect i useState",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Co powinno znaleźć się z miejscach X i Y, aby poniższy kod poprawnie logował w konsoli wymiary elementu, po jego pierwszym wyrenderowaniu? ",
+        "image": "img31.png",
+        "answers": [
+            {
+                "text": "X - `ref`, Y - `elementRef.current`",
+                "correct": true
+            },
+            {
+                "text": "X - `ref`, Y - `elementRef`",
+                "correct": false
+            },
+            {
+                "text": "X - `reference`, Y - `elementRef`",
+                "correct": false
+            },
+            {
+                "text": "X - `forwardRef`, Y - `elementRef`",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Reducer przekazywany do hook'a `useReducer` przyjmuje kolejno dwa parametry. Drugi z nich najczęściej nazywamy `action` i znajduje się w nim:",
+        "image": "",
+        "answers": [
+            {
+                "text": "Event wywołany przez użytkownika",
+                "correct": false
+            },
+            {
+                "text": "Funkcja pozwalająca na zmianę stanu reducer'a",
+                "correct": false
+            },
+            {
+                "text": "Nowa wartość dla reducer'a",
+                "correct": false
+            },
+            {
+                "text": "Obiekt na podstawie którego zostanie określona nowa wartość stanu",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Zgodnie z konwencją tworzenia reducer'ów, jakie pole powinien posiadać każdy obiekt będący akcją przekazywaną do funkcji `dispatch`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "payload",
+                "correct": false
+            },
+            {
+                "text": "type",
+                "correct": true
+            },
+            {
+                "text": "value",
+                "correct": false
+            },
+            {
+                "text": "state",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Czasami do obliczenia nowego stanu reducer'a potrzebujemy dodatkowych informacji (np. id elementu do usunięcia). Zgodnie z konwencją, jak nazwiemy pole przechowujące takie dane? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "payload",
+                "correct": true
+            },
+            {
+                "text": "data",
+                "correct": false
+            },
+            {
+                "text": "value",
+                "correct": false
+            },
+            {
+                "text": "state",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Reducer przekazywany do hook'a `useReducer` powinien:",
+        "image": "",
+        "answers": [
+            {
+                "text": "Zawsze zwracać nowy stan",
+                "correct": false
+            },
+            {
+                "text": "Zwracać nowy stan lub jego wycinek, który uległ zmianie",
+                "correct": false
+            },
+            {
+                "text": "Zwracać stan oraz listę akcji umożliwiających jego zmianę",
+                "correct": false
+            },
+            {
+                "text": "Zwracać nowy stan lub obiekt błędu",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "question": "Argument przekazany do funkcji `dispatch` zwróconej przez `useReducer` powinien być: ",
+        "image": "",
+        "answers": [
+            {
+                "text": "Wartością prymitywną (string, number, boolean)",
+                "correct": false
+            },
+            {
+                "text": "String'iem",
+                "correct": false
+            },
+            {
+                "text": "Obiektem",
+                "correct": true
+            },
+            {
+                "text": "Funkcją",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Posiadamy w komponencie rzadko zmieniającą się wartość, której obliczenie jest czasochłonne. Jakiego hook'a powinniśmy użyć, aby zoptymalizować nasz kod? ",
+        "image": "",
+        "answers": [
+            {
+                "text": "useMemo",
+                "correct": true
+            },
+            {
+                "text": "useCallback",
+                "correct": false
+            },
+            {
+                "text": "useRef",
+                "correct": false
+            },
+            {
+                "text": "useReducer",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Deklarujemy w komponencie funkcję, którą przekazujemy do dependency array `useEffect`. Jakiego hook'a możemy użyć, aby `useEffect` wykonał się ponownie wyłącznie, gdy funkcja ulegnie zmianie?",
+        "image": "",
+        "answers": [
+            {
+                "text": "useMemo",
+                "correct": true
+            },
+            {
+                "text": "useCallback",
+                "correct": true
+            },
+            {
+                "text": "useRef",
+                "correct": false
+            },
+            {
+                "text": "useReducer",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Tworzymy w komponencie obiekt, który jest przekazywany do dependency array w `useEffect`. Jakiego hook'a możemy użyć, aby `useEffect` wykonał się ponownie wyłącznie, gdy obiekt ulegnie zmianie?",
+        "image": "",
+        "answers": [
+            {
+                "text": "useMemo",
+                "correct": true
+            },
+            {
+                "text": "useCallback",
+                "correct": false
+            },
+            {
+                "text": "useRef",
+                "correct": false
+            },
+            {
+                "text": "useReducer",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Chcemy stworzyć hook'a `useMeasurements`, który zwraca wymiary elementu HTML za każdym razem, kiedy te ulegają zmianie. Jakie hook'i będą nam potrzebne przy implementacji takiej funkcjonalności?",
+        "image": "",
+        "answers": [
+            {
+                "text": "useState",
+                "correct": true
+            },
+            {
+                "text": "useEffect",
+                "correct": false
+            },
+            {
+                "text": "useRef",
+                "correct": true
+            },
+            {
+                "text": "useLayoutEffect",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Chcemy stworzyć hook'a `useScrollTop`, który scroll'uje wybrany element HTML do góry w momencie jego wyrenderowania. Jakie hook'i będą nam potrzebne przy implementacji takiej funkcjonalności?",
+        "image": "",
+        "answers": [
+            {
+                "text": "useState",
+                "correct": false
+            },
+            {
+                "text": "useEffect",
+                "correct": false
+            },
+            {
+                "text": "useRef",
+                "correct": true
+            },
+            {
+                "text": "useLayoutEffect",
+                "correct": true
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakiej kolejności wykonają się `console.log` zawarte w poniższym kodzie?",
+        "image": "img32.png",
+        "answers": [
+            {
+                "text": "5, 2, 3, 4, 6, 1",
+                "correct": false
+            },
+            {
+                "text": "3, 4, 5, 2, 6, 1",
+                "correct": true
+            },
+            {
+                "text": "3, 4, 5, 6, 2, 1",
+                "correct": false
+            },
+            {
+                "text": "1, 2, 3, 4, 5, 6",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakich celach powinno się wykorzystywać hook `useImperativeHandle`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Aby zdecydować co otrzyma rodzic w ramach ref'a przekazanego do komponentu dziecka",
+                "correct": true
+            },
+            {
+                "text": "Aby połączyć ze sobą kilka ref'ów zdefiniowanych w tym samym komponencie",
+                "correct": true
+            },
+            {
+                "text": "Aby zdefiniować statyczne metody dla komponentu funkcyjnego",
+                "correct": false
+            },
+            {
+                "text": "Aby przekazać stan z dziecka do rodzica",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakich celach powinno się wykorzystywać hook `useDebugValue`?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Aby nasłuchiwać na aktualną wartość danego hook'a z poziomu innego hook'a",
+                "correct": false
+            },
+            {
+                "text": "Aby uruchomić debugowanie dla konkretnego hook'a",
+                "correct": false
+            },
+            {
+                "text": "Aby wyświetlić informacje związane z custom'owym hook'iem w React Dev Tools",
+                "correct": true
+            },
+            {
+                "text": "Aby wyświetlić w ramach debugger'a aktualną wartość dla danego hook'a",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Czym jest thunk?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Funkcją zwracającą inną funkcję",
+                "correct": true
+            },
+            {
+                "text": "Funkcją przyjmującą inną funkcję jako parametr",
+                "correct": false
+            },
+            {
+                "text": "Funkcją zwróconą z innej funkcji",
+                "correct": false
+            },
+            {
+                "text": "Funkcją przekazaną do innej funkcji",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "W jakim celu stosuje się thunk'i?",
+        "image": "",
+        "answers": [
+            {
+                "text": "Aby odłożyć w czasie wykonanie funkcji",
+                "correct": true
+            },
+            {
+                "text": "Aby odłożyć w czasie utworzenie funkcji",
+                "correct": false
+            },
+            {
+                "text": "Aby dynamicznie decydować, która funkcja powinna zostać utworzona",
+                "correct": false
+            },
+            {
+                "text": "Aby zmodyfikować sposób działania funkcji",
+                "correct": false
+            },
+            {
+                "text": "Żadna z odpowiedzi nie jest prawidłowa",
+                "correct": false
+            }
+        ]
+    }
+]
